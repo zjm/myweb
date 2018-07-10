@@ -1996,7 +1996,7 @@ figure.team_member figcaption {
     float: left;
     width: 100%;
     text-align: center;
-    margin-bottom: 1.5em;
+    margin-bottom: 0em;
 }
 .comments-grid-right {
     float: right;

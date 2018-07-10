@@ -1,176 +1,242 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>微信开发</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<!-- Custom Theme files -->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-<!-- Custom Theme files -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }>
-</script>
-<meta name="keywords" content="" />
-<!--Google Fonts-->
-<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
-<!---<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>-->
-<!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+  <title>微信开发</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
-	<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-	</script>
-<!-- //end-smoth-scrolling -->
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script><!-- Custom Theme files -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /><!-- Custom Theme files -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script type="application/x-javascript">
+  <![CDATA[
+  addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }>
+  ]]>
+  </script>
+  <meta name="keywords" content="" /><!--Google Fonts-->
+  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" /><!---<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>-->
+  <!-- start-smoth-scrolling -->
+
+  <script type="text/javascript" src="js/move-top.js"></script>
+  <script type="text/javascript" src="js/easing.js"></script>
+  <script type="text/javascript">
+  //<![CDATA[
+                        jQuery(document).ready(function($) {
+                                $(".scroll").click(function(event){             
+                                        event.preventDefault();
+                                        $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                                });
+                        });
+  //]]>
+  </script><!-- //end-smoth-scrolling -->
 </head>
 <body>
-<!--banner start here-->
-<div class="banner-1">
-	  <div class="container">
-  <!--header start here-->
-	 <div class="header">
-			
-				<div class="logo">
-					<h1><a href="index.html"> <img src="images/logo.png" class="img-responsive" alt=""></a></h1>
-				</div>
-					<nav class="navbar navbar-default">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div>
-						<!--/.navbar-header-->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav">
-								<li><a href="index.html">首页</a></li>
-								<li><a href="blockchain.html">区块链开发</a></li>
-								<li><a href="applets.html">小程序开发</a></li>
-								<li><a href="appdev.html">APP开发</a></li>
-								<li class="active"><a href="shortcodes.html">微信开发</a></li>
-								<li><a href="contact.html">联系我们</a></li>
-							</ul>
-						</div>
-						<!--/.navbar-collapse-->
-					</nav>
-				<!-- <div class="search-box">
-					<div id="sb-search" class="sb-search">
-						<form action="#" method="post">
-							<input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
-							<input class="sb-search-submit" type="submit" value="">
-							<span class="sb-icon-search"> </span>
-							</form>
-					</div>
-				</div> -->
-					<div class="clearfix"> </div>
+  <!--banner start here-->
+  <div class="banner-1">
+    <div class="container">
+      <!--header start here-->
+      <div class="header">
+        <div class="logo">
+          <h1><a href="index.html"><img src="images/logo.png" class="img-responsive" alt="" /></a></h1>
+        </div>
+        <nav class="navbar navbar-default">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+          </div><!--/.navbar-header-->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="index.html">首页</a>
+              </li>
+              <li>
+                <a href="blockchain.html">区块链开发</a>
+              </li>
+              <li>
+                <a href="applets.html">小程序开发</a>
+              </li>
+              <li>
+                <a href="appdev.html">APP开发</a>
+              </li>
+              <li class="active">
+                <a href="shortcodes.html">微信开发</a>
+              </li>
+              <li>
+                <a href="contact.html">联系我们</a>
+              </li>
+            </ul>
+          </div><!--/.navbar-collapse-->
+        </nav><!-- <div class="search-box">
+                                        <div id="sb-search" class="sb-search">
+                                                <form action="#" method="post">
+                                                        <input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
+                                                        <input class="sb-search-submit" type="submit" value="">
+                                                        <span class="sb-icon-search"> </span>
+                                                        </form>
+                                        </div>
+                                </div> -->
+        <div class="clearfix"></div><!-- search-scripts -->
+        <script src="js/classie.js"></script> 
+        <script src="js/uisearch.js"></script> 
+        <script>
 
-				<!-- search-scripts -->
-					<script src="js/classie.js"></script>
-					<script src="js/uisearch.js"></script>
-					<script>
-						new UISearch( document.getElementById( 'sb-search' ) );
-					</script>
-				<!-- //search-scripts -->
+        <![CDATA[
 
-			
-		</div>
-<!--header end here-->
+                                                new UISearch( document.getElementById( 'sb-search' ) );
+        ]]>
+        </script> <!-- //search-scripts -->
+      </div><!--header end here-->
+    </div>
+  </div><!--banner end here-->
+  <!--typo-->
+  <div class="typo">
+    <div class="container">
+      <h3 class="title">微信开发</h3>
+      <div align="center">
+        <p>—— WeChat Development ——</p>
+        <p>微信公众平台作为当下最热门的线上营销方式被越来越多的企业所看重，但是微信平台自带的功能有很多局限性，无法满足企业的功能服务需求，所以就需要对微信公众平台进行二次开发。上海米信科技为客户提供专业的微信公众平台开发，在金融、医疗、酒店、教育、快递等行业有成熟的微信开发解决方案，是上海地区领先的一站式微信开发外包公司。</p>
+      </div><br />
+      <h3 class="title"><font color="fff">企业为什么要做微信公众号的开发</font></h3>
+      <div class="grid_3 grid_4">
+        <div class="services-grids w3ls-4">
+          <div class="col-md-4 services-grid">
+            <a href="" class="mask"><img src="images/yidonghulianwangqushi.png" class="img-responsive zoom-img" alt="" /></a>
+          </div>
+          <div class="col-md-4 services-grid">
+            <a href="" class="mask"><img src="images/weixinrukou.png" class="img-responsive zoom-img" alt="" /></a>
+          </div>
+          <div class="col-md-4 services-grid">
+            <a href="" class="mask"><img src="images/weixinyonghunianxing.png" class="img-responsive zoom-img" alt="" /></a>
+          </div>
+          <div class="clearfix"></div>
+        </div><!-- ==================== -->
+        <div class="services-grids w3ls-4">
+          <div class="col-md-4 services-grid">
+            <a href="" class="mask"><img src="images/weixinshishangxiaoshouqudao.png" class="img-responsive zoom-img" alt="" /></a>
+          </div>
+          <div class="col-md-4 services-grid">
+            <a href="" class="mask"><img src="images/weixincrm.png" class="img-responsive zoom-img" alt="" /></a>
+          </div>
+          <div class="col-md-4 services-grid">
+            <a href="" class="mask"><img src="images/weixindichengbenyingxiao.png" class="img-responsive zoom-img" alt="" /></a>
+          </div>
+          <div class="clearfix"></div>
+        </div><!--  -->
+      </div>
+      <br></br> <br></br>
+      <h3 class="title"><font color="fff">微信公众平台 四大开发服务</font></h3>
+     <br></br><br></br>
+      <div class="comments-grids">
+        <div class="comments-grid-left"><img src="images/weixinserviceacount.png" alt=" " class="img-responsive" /></div>
+        <div class="comments-grid">
+          <h4><span> <font>微信服务号开发</font></span></h4> 
+          
+          <p> <font color="#82807e"> 微信服务号开发，定制个性化功能，可以和企业网站、手机站、APP等连接，实现数据同步，提升企业的业务能力和用户管理能力，让营销变得更容易.</font></p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
 
-</div>
-</div>
-<!--banner end here-->
-<!--typo-->
-<div class="typo">
-		<div class="container">
-			<h3 class="title">Short Codes</h3>
-			<div class="grid_3 grid_4">
-
-               <div class="services-grids w3ls-4">
-							<div class="col-md-4 services-grid">	
-								<a href="singlepage.html" class="mask">					
-									<img src="images/appjiudianbinguan.png" class="img-responsive zoom-img" alt="">
-								</a>
-								<h4>酒店宾馆</h4>
-								
-							</div>
-							<div class="col-md-4 services-grid">	
-								<a href="singlepage.html" class="mask">					
-									<img src="images/appcanyin.png" class="img-responsive zoom-img" alt="">
-								</a>
-								<h4>餐饮</h4>
-								
-							</div>	
-							<div class="col-md-4 services-grid">	
-								<a href="singlepage.html" class="mask">					
-									<img src="images/appdianshangpingtai.jpg" class="img-responsive zoom-img" alt="">
-								</a>
-								<h4>电商平台</h4>
-								
-							</div>
-							<div class="clearfix"></div>
-					 </div>
 
 
-				
-			</div>
-			
-			
-		</div>
-	</div>
-<!--typo-->
-<!--footer-->
-<div class="footer">
-		<div class="container">
-			<div class="footer-grids">
-				<div class="col-md-3 footer-grid">
-					<h3>Extras</h3>
-					<p>Ut rutrum neque a mollis laoreet diam enim feuiat dui nec ulacoper quam felis id diam. Nunc ut tortor ligula eu petiu Pelleesque .</p>
-				</div>
-				<div class="col-md-3 footer-grid">
-					<h3>Useful Info</h3>
-					<ul>
-						<li><a href="singlepage.html">Hendrerit quam</a></li>
-						<li><a href="singlepage.html">Amet consectetur </a></li>
-						<li><a href="singlepage.html">Iquam hendrerit</a></li>
-						<li><a href="singlepage.html">Hendrerit quam</a></li>
-						<li><a href="singlepage.html">Amet consectetur </a></li>
-					</ul>
-				</div>
-				<div class="col-md-3 footer-grid">
-					<h3>Social</h3>
-					<ul class="social-icons1">
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-					</ul>
-				</div>
-				<div class="col-md-3 footer-grid">
-					<h3>Contact Us</h3>
-					<p>Pelleesque conquat dignissim lacus quis altrcies.</p>
-					<div class="footer-grid-address">
-						<p>Tel.800-255-9999</p>
-						<p>Fax: 1234 568</p>
-						<p>Email: <a class="email-link" href="mailto:info@example.com">Example.com</a></p>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="copy-right">
-				<p>Copyright &copy; 2016.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
-			</div>
-		</div>
-	</div>
-<!--footer-->
+      <div class="comments-grids">
+        <div class="comments-grid-left"><img src="images/weixindingyue.png" alt=" " class="img-responsive" /></div>
+        <div class="comments-grid">
+          <h4><span>微信订阅号开发</span></h4> 
+          
+          <p> <font color="#82807e">微信订阅号开发能够帮助企业实现产品宣传，提供图文、视频、音频传播方式，更好的与用户互动.</font></p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+
+
+
+       <div class="comments-grids">
+        <div class="comments-grid-left"><img src="images/weixinqiyezhanghao.png" alt=" " class="img-responsive" /></div>
+        <div class="comments-grid">
+          <h4><span>微信企业号开发</span></h4> 
+          
+          <p> <font color="#82807e">微信企业号开发以企业需求为前提，帮助企业建立员工、上下游供应链与企业IT系统间的连接，实现生产、管理、协作、运营的移动化.</font></p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+
+
+       <div class="comments-grids">
+        <div class="comments-grid-left"><img src="images/weixinxiaochengxu.png" alt=" " class="img-responsive" /></div>
+        <div class="comments-grid">
+          <h4><span>微信小程序开发</span></h4> 
+          
+          <p> <font color="#82807e">微信小程序是现在的风口，未来的趋势，所以为什么不去开发自己的小程序呢？ 米信科技为企业提供小程序定制开发服务，帮企业抢占先机.</font></p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+     
+
+     <br></br> <br></br>
+      <h3 class="title"><font color="fff">微信公众平台 八大特色功能开发</font></h3>
+     <br></br><br></br>
+
+
+    </div>
+  </div><!--typo-->
+  <!--footer-->
+  <div class="footer">
+    <div class="container">
+      <div class="footer-grids">
+        <div class="col-md-3 footer-grid">
+          <h3>Extras</h3>
+          <p>Ut rutrum neque a mollis laoreet diam enim feuiat dui nec ulacoper quam felis id diam. Nunc ut tortor ligula eu petiu Pelleesque .</p>
+        </div>
+        <div class="col-md-3 footer-grid">
+          <h3>Useful Info</h3>
+          <ul>
+            <li>
+              <a href="singlepage.html">Hendrerit quam</a>
+            </li>
+            <li>
+              <a href="singlepage.html">Amet consectetur</a>
+            </li>
+            <li>
+              <a href="singlepage.html">Iquam hendrerit</a>
+            </li>
+            <li>
+              <a href="singlepage.html">Hendrerit quam</a>
+            </li>
+            <li>
+              <a href="singlepage.html">Amet consectetur</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 footer-grid">
+          <h3>Social</h3>
+          <ul class="social-icons1">
+            <li>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 footer-grid">
+          <h3>Contact Us</h3>
+          <p>Pelleesque conquat dignissim lacus quis altrcies.</p>
+          <div class="footer-grid-address">
+            <p>Tel.800-255-9999</p>
+            <p>Fax: 1234 568</p>
+            <p>Email: <a class="email-link" href="mailto:info@example.com">Example.com</a></p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="copy-right">
+        <p>Copyright &copy; 2016.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+      </div>
+    </div>
+  </div><!--footer-->
 </body>
 </html>
