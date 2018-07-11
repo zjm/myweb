@@ -2175,6 +2175,9 @@ span.glyphicon.glyphicon-glass,span.glyphicon.glyphicon-user,span.glyphicon.glyp
 .faculty_top {
     margin-bottom: 0em;
 }
+.faculty_right {
+    margin-left:  0em;
+}
 .mid-content {
     width: 79%;
 }
