@@ -486,6 +486,17 @@ span.glyphicon.glyphicon-glass {
     padding: 0.5em;
     color: #fff;
 }
+
+span.glyphicon.glyphicon-btc {
+    font-size: 3em;
+    padding: 0.5em;
+    color: #fff;
+}
+span.glyphicon.glyphicon-bitcoin {
+    font-size: 3em;
+    padding: 0.5em;
+    color: #fff;
+}
 .welcome-grid h4 {
     font-size: 1.8em;
     text-transform: capitalize;
@@ -2158,7 +2169,7 @@ figure.team_member figcaption {
 .welcome {
     padding: 2em 0 0;
 }
-span.glyphicon.glyphicon-glass,span.glyphicon.glyphicon-user,span.glyphicon.glyphicon-heart {
+span.glyphicon.glyphicon-glass,span.glyphicon.glyphicon-bitcoin,span.glyphicon.glyphicon-user,span.glyphicon.glyphicon-heart {
     font-size: 2.5em;
     padding: 0;
 }
