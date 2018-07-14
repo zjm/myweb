@@ -497,6 +497,49 @@ span.glyphicon.glyphicon-bitcoin {
     padding: 0.5em;
     color: #fff;
 }
+
+span.glyphicon.glyphicon-transfer {
+    font-size: 3em;
+    padding: 0.5em;
+    color: #fff;
+}
+span.glyphicon.glyphicon-time {
+    font-size: 3em;
+    padding: 0.5em;
+    color: #fff;
+}
+span.glyphicon.glyphicon-headphones {
+    font-size: 3em;
+    padding: 0.5em;
+    color: #fff;
+}
+span.glyphicon.glyphicon-headphones {
+    font-size: 3em;
+    padding: 0.5em;
+    color: #fff;
+}
+span.glyphicon.glyphicon-plane {
+    font-size: 3em;
+    padding: 0.5em;
+    color: #fff;
+}
+span.glyphicon.glyphicon-ok-circle {
+    font-size: 3em;
+    padding: 0.5em;
+    color: #fff;
+}
+span.glyphicon.glyphicon-lock {
+    font-size: 3em;
+    padding: 0.5em;
+    color: #fff;
+}
+span.glyphicon.glyphicon-link {
+    font-size: 3em;
+    padding: 0.5em;
+    color: #fff;
+}
+
+
 .welcome-grid h4 {
     font-size: 1.8em;
     text-transform: capitalize;
@@ -2169,7 +2212,16 @@ figure.team_member figcaption {
 .welcome {
     padding: 2em 0 0;
 }
-span.glyphicon.glyphicon-glass,span.glyphicon.glyphicon-bitcoin,span.glyphicon.glyphicon-user,span.glyphicon.glyphicon-heart {
+span.glyphicon.glyphicon-link,span.glyphicon.glyphicon-bitcoin,span.glyphicon.glyphicon-user,span.glyphicon.glyphicon-heart {
+    font-size: 2.5em;
+    padding: 0;
+}
+
+span.glyphicon.glyphicon-transfer,span.glyphicon.glyphicon-bitcoin,span.glyphicon.glyphicon-time,span.glyphicon.glyphicon-headphones {
+    font-size: 2.5em;
+    padding: 0;
+}
+span.glyphicon.glyphicon-superscript,span.glyphicon.glyphicon-plane,span.glyphicon.glyphicon-ok-circle,span.glyphicon.glyphicon-lock {
     font-size: 2.5em;
     padding: 0;
 }
