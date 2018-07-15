@@ -201,7 +201,8 @@ nav.navbar.navbar-default {
 }
 /*-banner start here--*/
 .banner{
-  background:#eae089;
+  /* background:#eae089; */
+  background:#fff;
   min-height: 780px;
   background-size: cover;
   position:relative;
