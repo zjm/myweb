@@ -503,6 +503,12 @@ span.glyphicon.glyphicon-transfer {
     padding: 0.5em;
     color: #fff;
 }
+
+span.glyphicon.glyphicon-superscript {
+    font-size: 3em;
+    padding: 0.5em;
+    color: #fff;
+}
 span.glyphicon.glyphicon-time {
     font-size: 3em;
     padding: 0.5em;
