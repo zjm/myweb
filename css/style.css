@@ -31,8 +31,8 @@ a {
     width: 100% ! important;
 }
 .navbar-default {
-    background-color:#EAE089! important;
-    border-color:#EAE089 ! important;
+    background-color:#EEEEEE! important;
+    border-color:#EEEEEE ! important;
 }
 .navbar {
     border-radius: 0px ! important;
@@ -51,12 +51,12 @@ a {
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #8E0000;
-    background-color:#EAE089;
+    background-color:#EEEEE;
 	border-bottom:2px solid #8E0000;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color:#8E0000;
-    background-color:#EAE089;
+    background-color:#EEEEEE;
 	border-bottom:2px solid #8E0000;
 }
 .glyphicon {
@@ -195,8 +195,8 @@ nav.navbar.navbar-default {
 }
 /*--*/
 .header {
-/*-- w3layouts --*/
-    background-color:#EAE089;
+/*-- w3layouts #EAE089--*/
+    background-color:#eeeeee;
     padding: 1.2em 0;
 }
 /*-banner start here--*/
