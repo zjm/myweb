@@ -462,7 +462,8 @@ figure, figcaption, img, h2, p, i, .person-social {
 .welcome {
     padding: 5em 0;
     text-align: center;
-	background-color: #eee;
+	/* background-color: #eee; */
+  background-color: #fff;
 }
 .welcome h3 {
     font-size: 3.5em;
@@ -840,7 +841,8 @@ a.more-in:hover{
 }
 /*--- //footer ----*/
 .banner-1 {
-    background:#EAE089;
+    /* background:#EAE089; */
+    background:#eeeeee;
     min-height: 103px;
     background-size: cover;
 }
