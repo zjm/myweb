@@ -51,7 +51,7 @@ a {
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #8E0000;
-    background-color:#EEEEE;
+    background-color:#EEEEEE;
 	border-bottom:2px solid #8E0000;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -201,7 +201,7 @@ nav.navbar.navbar-default {
 }
 /*-banner start here--*/
 .banner{
-  /* background:#eae089; */
+   background:#eeeeee; 
   background:#fff;
   min-height: 780px;
   background-size: cover;
@@ -1848,7 +1848,7 @@ nav.navbar.navbar-default {
     height: 4px;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #EAE089;
+    background-color: #9bcdff;
 }
 .navbar-default .navbar-toggle {
     border: none;
